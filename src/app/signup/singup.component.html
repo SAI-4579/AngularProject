@@ -1,0 +1,11 @@
+<div class="a">
+    <h1>Signup Form</h1>
+    <div class="p-5">
+        <input type="text" class="form-control" placeholder="Enter Email"
+         [(ngModel)]="em"><br>
+        <input type="password" class="form-control" placeholder="Enter Password" 
+         [(ngModel)]="pwd"><br>
+        <button class="btn btn-outline-success" (click)="signup()">Signup</button>
+    </div>
+    <p>If you are already registered, click <button [routerLink]="['/login']">Here</button></p>
+</div>

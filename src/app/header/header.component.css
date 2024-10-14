@@ -1,0 +1,62 @@
+.a {
+    display: flex;
+    align-items: center;
+}
+div h2 {
+    font-weight: 500;
+    margin-left: 20px;
+    color: antiquewhite;
+    margin-right: 20px;
+}
+div form {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+}
+div input[type="search"] {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+div i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 16px;
+    pointer-events: none;
+    cursor: pointer;
+}
+div i:hover {
+    color: black;
+}
+div input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+hr {
+    border-color: aqua;
+    border-width: 2px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+.right-items {
+    margin-left: auto;
+    justify-content: space-between;
+}
+.abc {
+    margin-right: 30px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}

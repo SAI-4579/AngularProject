@@ -1,0 +1,18 @@
+<div class="a">
+    <h1>Login Form</h1>
+    <div class="p-5">
+        <input type="text" class="form-control" placeholder="Enter Email" maxlength="30" 
+         pattern="[a-zA-Z0-9.%+-_]+@[a-zA-Z0-9.]+\.[a-zA-Z]{2,}$" autocomplete="off" 
+         [(ngModel)]="email"><br>
+        <input type="password" class="form-control" placeholder="Enter Password"
+         autocomplete="off" maxlength="15" [(ngModel)] ="password"><br>
+        <button class="btn btn-outline-success" data-inline="true" (click)="login()">
+            Login</button> &nbsp;&nbsp;&nbsp;
+        <button class="btn btn-outline-success" data-inline="true" (click)="reset()">
+            Reset</button>
+        <h5>or</h5>
+        <button class="btn btn-outline-success" (click)="googlelogin()">
+            signin with Google</button>
+    </div>
+    <p>If you are not registered, click <button [routerLink]="['/signup']">Here</button></p>
+</div>

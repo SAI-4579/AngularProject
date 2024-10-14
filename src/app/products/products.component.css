@@ -1,0 +1,32 @@
+#products{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-y: auto;
+}
+
+.product{
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+h1{
+    margin-left: 10px;
+}
+
+@media (max-width:760px) {
+#products{
+    grid-template-columns: repeat(1,auto);
+}
+}
+
+@media (max-width:998px) {
+    #products{
+        grid-template-columns: repeat(2,auto);
+    }
+}

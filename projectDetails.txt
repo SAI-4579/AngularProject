@@ -1,0 +1,1 @@
+Generally, environments files contain .env extensions.
